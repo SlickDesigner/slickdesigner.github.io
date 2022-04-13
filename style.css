@@ -4,6 +4,8 @@
     padding: 0;
 }
 
+@media only screen and (min-width: 480px) {
+
 body {
     
     align-items: center;
@@ -43,4 +45,17 @@ span {
     display: block;
 }
 
+}
 
+@media only screen and (max-width: 600px) {
+    
+
+
+h1 {
+    font-size: 130px;
+}
+
+#icecream {
+    max-width: fit-content;
+  }
+}
