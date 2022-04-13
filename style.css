@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    display:flex;
+    flex-direction: column;
+}
+
+
+#icecream {
+    padding-top: 35px;
+}
+
+h1 {
+    background-image: url(https://deadline.com/wp-content/uploads/2019/06/strangerthings_s3_illustrated_vertical_final_rgb_digital__en-1.jpg);
+    background-size: center;
+    background-position: 50% 25%;
+    background-repeat: no-repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-align: center;
+    font-size: 220px;
+    font-family: fantasy;
+    color: transparent;
+    text-shadow: #FFF 10px 10px 1000px;
+}
+
+p {
+    font-size: 50px;
+    font-weight:bold;
+    font-family: fantasy
+}
+
+span {
+    font-size: 50px;
+    text-align: center;
+    display: block;
+}
+
+
